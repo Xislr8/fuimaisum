@@ -1,0 +1,80 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, red, orange,yellow, green, blue,indigo, violet);
+    font-family: Arial, Helvetica, sans-serif;
+    animation: animacaotoptres 700ms infinite ;
+}
+.textoanimado{
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+    animation: jose 2s infinite
+}
+@keyframes animacaotoptres {
+    0%{
+        background: linear-gradient(90deg,red orange,yellow, green,blue, indigo,violet);
+    }
+    15%{
+        background: linear-gradient(90deg,orange,yellow, green,blue, indigo,violet,red,);
+    }
+    30%{
+        background: linear-gradient(90deg,yellow,green,blue, indigo,violet,red,orange,);
+    }
+    45%{
+        background: linear-gradient(90deg,green,blue, indigo,violet,red,orange,yellow);
+    }
+    60%{
+        background: linear-gradient(90deg,blue,indigo,violet,red,orange,yellow,green);
+    }
+    75%{
+        background: linear-gradient(90deg,indigo),violet,red,orange,yellow,green,blue;
+    }
+    100%{
+        background: linear-gradient(90deg,red,orange,yellow,green,blue,indigo,violet);
+    }
+}
+h1{
+    text-shadow: 0px 12px 3px black;
+    font-size: large;
+    
+}
+@keyframes jose {
+    
+
+
+0%{
+    font-size: larger;
+    text-shadow: 0px 12px 3px black;
+}
+15%{
+    font-size: large;
+    text-shadow: 5px 16px 6px black;
+}
+30%{
+    font-size: medium;
+    text-shadow: 10px 21px 10px black;
+}
+45%{
+    font-size: small;
+    text-shadow: 17px 28px 18px black;
+}
+50%{font-size: smaller;
+    text-shadow: 19px 30px 20px black;
+}
+55%{
+    text-shadow: 17px 28px 18px black
+}
+70%{
+    text-shadow: 10px 21px 10px black;
+}
+85%{
+    text-shadow: 5px 16px 6px black;
+}
+100%{
+    text-shadow: 0px 12px 3px black;
+}
+}
